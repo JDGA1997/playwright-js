@@ -20,5 +20,44 @@
     "PIM",
     "Leave",
     "Time"
+  ],
+  "candidates": [
+    {
+      "firstName": "Juan",
+      "lastName": "Pérez",
+      "email": "juan.perez@example.com",
+      "phone": "555001234",
+      "position": "Software Engineer"
+    },
+    {
+      "firstName": "María",
+      "lastName": "García",
+      "email": "maria.garcia@example.com",
+      "phone": "555005678",
+      "position": "Product Manager"
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "López",
+      "email": "carlos.lopez@example.com",
+      "phone": "555009012",
+      "position": "UX Designer"
+    }
+  ],
+  "invalidCandidates": [
+    {
+      "firstName": "",
+      "lastName": "TestInvalid",
+      "email": "test@example.com",
+      "phone": "555001111",
+      "description": "Nombre vacío"
+    },
+    {
+      "firstName": "TestInvalid",
+      "lastName": "",
+      "email": "test@example.com",
+      "phone": "555001111",
+      "description": "Apellido vacío"
+    }
   ]
 }
